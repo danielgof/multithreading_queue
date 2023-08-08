@@ -47,7 +47,7 @@ To use the ConcurrentQueue in your project, follow the steps below:
 1. Copy the `concurrent_queue.h` file into your project's source directory.
 2. Include the header file in your code: `#include "concurrent_queue.h"`
 3. Create an instance of the `ConcurrentQueue` class for the desired element type.
-4. Use the `push`, `try_pop`, `empty`, and `size` methods to interact with the concurrent queue.
+4. Use the `enqueue` and `dequeue` methods to interact with the concurrent queue.
 
 Example usage:
 
